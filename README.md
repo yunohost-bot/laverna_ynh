@@ -28,6 +28,10 @@ The data is private because it is stored by default on your machine (InnoDB and 
 
 ![Screenshot of Laverna](./doc/screenshots/laverna.png)
 
+## :red_circle: Antifeatures
+
+- **Package not maintained**: This YunoHost package is not maintained and needs adoption.
+
 ## Documentation and resources
 
 * Official app website: <https://laverna.cc/index.html>

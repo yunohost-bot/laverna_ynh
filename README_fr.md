@@ -28,6 +28,10 @@ Les données sont privées, car stockées par défaut sur votre machine (InnoDB 
 
 ![Capture d’écran de Laverna](./doc/screenshots/laverna.png)
 
+## :red_circle: Fonctions indésirables
+
+- **Package not maintained**: This YunoHost package is not maintained and needs adoption.
+
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://laverna.cc/index.html>
