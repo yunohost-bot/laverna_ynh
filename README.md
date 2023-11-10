@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Laverna for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/laverna.svg)](https://dash.yunohost.org/appci/app/laverna) ![](https://ci-apps.yunohost.org/ci/badges/laverna.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/laverna.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/laverna.svg)](https://dash.yunohost.org/appci/app/laverna) ![Working status](https://ci-apps.yunohost.org/ci/badges/laverna.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/laverna.maintain.svg)
+
 [![Install Laverna with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=laverna)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -19,31 +20,32 @@ Laverna is an anonymous system, encrypted and without registration required, it 
 The data is private because it is stored by default on your machine (InnoDB and localstorage), it is a setting in the settings that will allow you to synchronize it via the cloud on your various devices.
 
 
-**Shipped version:** 0.7.51~ynh5
+**Shipped version:** 0.7.51~ynh6
 
 **Demo:** https://laverna.cc/app/
 
 ## Screenshots
 
-![](./doc/screenshots/laverna.png)
+![Screenshot of Laverna](./doc/screenshots/laverna.png)
 
 ## Documentation and resources
 
-* Official app website: https://laverna.cc/index.html
-* Official admin documentation: https://github.com/Laverna/laverna/wiki
-* Upstream app code repository: https://github.com/Laverna/laverna
-* YunoHost documentation for this app: https://yunohost.org/app_laverna
-* Report a bug: https://github.com/YunoHost-Apps/laverna_ynh/issues
+* Official app website: <https://laverna.cc/index.html>
+* Official admin documentation: <https://github.com/Laverna/laverna/wiki>
+* Upstream app code repository: <https://github.com/Laverna/laverna>
+* YunoHost Store: <https://apps.yunohost.org/app/laverna>
+* Report a bug: <https://github.com/YunoHost-Apps/laverna_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/laverna_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/laverna_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade laverna -u https://github.com/YunoHost-Apps/laverna_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>

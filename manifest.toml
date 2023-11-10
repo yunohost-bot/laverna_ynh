@@ -1,0 +1,54 @@
+packaging_format = 2
+
+id = "laverna"
+name = "Laverna"
+description.en = "Taking note with Markdown editor and encryption support"
+description.fr = "Prise de note avec éditeur Markdown et chiffrement"
+
+version = "0.7.51~ynh6"
+
+maintainers = []
+
+[upstream]
+license = "MPL-2.0"
+website = "https://laverna.cc/index.html"
+demo = "https://laverna.cc/app/"
+admindoc = "https://github.com/Laverna/laverna/wiki"
+code = "https://github.com/Laverna/laverna"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/laverna"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/Laverna/static-laverna/archive/gh-pages.zip"
+        sha256 = "226224a141eeefefcf446e8ba4bda3f9ea7be6e96cd1992b185d44d5ef58e7d3"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
