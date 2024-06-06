@@ -22,7 +22,7 @@ Les données sont privées, car stockées par défaut sur votre machine (InnoDB 
 
 **Version incluse :** 0.7.51~ynh6
 
-**Démo :** https://laverna.cc/app/
+**Démo :** <https://laverna.cc/app/>
 
 ## Captures d’écran
 
@@ -38,7 +38,7 @@ Les données sont privées, car stockées par défaut sur votre machine (InnoDB 
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/laverna_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/laverna_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 
