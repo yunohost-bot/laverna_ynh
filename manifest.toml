@@ -5,7 +5,7 @@ name = "Laverna"
 description.en = "Taking note with Markdown editor and encryption support"
 description.fr = "Prise de note avec éditeur Markdown et chiffrement"
 
-version = "0.7.51~ynh6"
+version = "0.7.51~ynh7"
 
 maintainers = []
 
